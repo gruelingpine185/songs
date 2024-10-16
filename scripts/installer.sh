@@ -6,10 +6,7 @@ load_from_file() {
   local filepath="$1"
   local songs=$(cat $filepath)
   for line in songs; do
-    if [[ "${line:0:1}" == '#' or "$line" == "\n" ]]; then
-    else
       song_list+=("$songs")
-    fi
   done
 }
 
