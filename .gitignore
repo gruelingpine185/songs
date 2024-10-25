@@ -6,6 +6,7 @@ lib/
 
 # songs not wished to be publicized
 local.txt
+*.mp3
 
 # macos
 .DS_Store
