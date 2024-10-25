@@ -18,13 +18,13 @@ contents (ignoring duplicates), and downlaod the songs.
 Make the script executable.
 
 ```sh
-chmod +x ./installer.sh
+chmod +x ./scripts/install.py
 ```
 
 Run the script
 
 ```sh
-./installer.sh
+./scripts/install.py
 ```
 
 ## Contributions
