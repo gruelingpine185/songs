@@ -1,4 +1,11 @@
-*.mp3
+# python venv
+bin/
+include/
+lib/
+*.cfg
+
+# songs not wished to be publicized
+local.txt
 
 # macos
 .DS_Store
